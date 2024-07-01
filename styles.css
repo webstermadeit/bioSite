@@ -1,4 +1,4 @@
-/* styles.css */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,6 @@ body {
 }
 
 header {
-    background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -29,11 +28,52 @@ main {
 }
 
 footer {
-    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Landing Page (index.html) */
+#landing-header {
+    background-color: #0066cc;
+}
+
+#landing-main {
+    background-color: #e6f2ff;
+    border: 1px solid #0066cc;
+}
+
+#landing-footer {
+    background-color: #003366;
+}
+
+/* About Page (about.html) */
+#about-header {
+    background-color: #ff9933;
+}
+
+#about-main {
+    background-color: #ffe6cc;
+    border: 1px solid #ff9933;
+}
+
+#about-footer {
+    background-color: #cc6600;
+}
+
+/* Hobbies Page (hobbies.html) */
+#hobbies-header {
+    background-color: #33cc33;
+}
+
+#hobbies-main {
+    background-color: #ccffcc;
+    border: 1px solid #33cc33;
+}
+
+#hobbies-footer {
+    background-color: #009900;
 }
